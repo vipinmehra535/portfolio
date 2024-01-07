@@ -54,9 +54,6 @@ class ProjectCardState extends State<ProjectCard> {
                   Image.asset(
                     widget.project.icons,
                     height: height * 0.05,
-                    frameBuilder:
-                        (context, child, frame, wasSynchronouslyLoaded) =>
-                            child,
                   ),
                   SizedBox(height: height * 0.02),
                   Text(
@@ -88,9 +85,8 @@ class ProjectCardState extends State<ProjectCard> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   image: DecorationImage(
-                    image: AssetImage(widget.project.banners),
-                    fit: BoxFit.cover,
-                  ),
+                      image: AssetImage(widget.project.banners),
+                      fit: BoxFit.cover),
                 ),
                 // child: Image.asset(
                 //   widget.project.banners,
