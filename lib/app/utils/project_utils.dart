@@ -23,21 +23,13 @@ List<ProjectUtils> projectUtils = [
     links: 'https://github.com/vipinmehra535/chatup',
   ),
   ProjectUtils(
-    banners: 'assets/imgs/1.png',
+    banners: 'assets/imgs/google.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Google Clone',
     description:
         'A completely Responsive Google App- Works on Android, iOS & Web! using Flutter and Google Aps, file is also available, check below.',
     links: 'https://github.com/vipinmehra535/google-clone/',
   ),
-  // ProjectUtils(
-  //   banners: 'assets/imgs/03.png',
-  //   icons: 'assets/imgs/flutter.png',
-  //   titles: 'Exercise App',
-  //   description:
-  //       'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
-  //   links: 'https://github.com/sudeshnb/elderly_exercise_app.git',
-  // ),
   ProjectUtils(
     banners: 'assets/imgs/04.png',
     icons: 'assets/imgs/flutter.png',
