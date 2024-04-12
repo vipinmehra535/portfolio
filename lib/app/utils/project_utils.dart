@@ -38,4 +38,12 @@ List<ProjectUtils> projectUtils = [
         'This is a just Plant App UI by using flutter, source code is also available, check below.',
     links: 'https://github.com/vipinmehra535/snapleaf',
   ),
+  ProjectUtils(
+    banners: 'assets/imgs/blogapp.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Blog App',
+    description:
+        'A simple blog app where you can sign up, sign in, create posts your posts using flutter, source code is also available, check below.',
+    links: 'https://github.com/vipinmehra535/blog_app',
+  ),
 ];

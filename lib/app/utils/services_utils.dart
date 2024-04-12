@@ -12,26 +12,26 @@ class ServicesUtils {
   });
 }
 
-List<ServicesUtils> servicesUtils = [
+List<ServicesUtils> skillsUtils = [
   ServicesUtils(
     name: 'iOS App Development',
     icon: 'assets/icons/apple.svg',
     description:
         "Are you interested in the great Mobile app? Let's make it a reality.",
-    tool: ['Flutter'],
+    tool: ['Flutter', 'Firebase', 'Node JS'],
   ),
   ServicesUtils(
     name: 'Android App Development',
     icon: 'assets/icons/android.svg',
     description:
         "Are you interested in the great Mobile app? Let's make it a reality.",
-    tool: ['Flutter', 'Firebase'],
+    tool: ['Flutter', 'Firebase', 'Node JS'],
   ),
   ServicesUtils(
     name: 'Web Development',
     icon: 'assets/icons/website.svg',
     description:
         "Do you have an idea for your next great website? Let's make it a reality.",
-    tool: ['Flutter', 'HTML', 'CSS', 'JavaScript'],
+    tool: ['Flutter', 'HTML', 'CSS', 'JavaScript', 'Node JS'],
   ),
 ];

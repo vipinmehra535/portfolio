@@ -1,6 +1,6 @@
 {
-    "name": "mysite",
-    "short_name": "mysite",
+    "name": "protfolio",
+    "short_name": "protfolio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

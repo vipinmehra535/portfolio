@@ -21,12 +21,9 @@ class NChecking extends StatelessWidget {
       builder: (context, state) {
         if (state is ConnectedSucessState) {
           return const MainPage();
-          // return const MainScreen();
-        }
-        // else if (state is ConnectedFailureState) {
-        //   return const NoConnectionErorr();
-        // }
-        else {
+        } else if (state is ConnectedFailureState) {
+          return const NoConnectionErorr();
+        } else {
           // return Container();
           // return const NoConnectionErorr();
           return const MainPage();
@@ -46,9 +43,6 @@ class NoConnectionErorr extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // LoadingAnimationWidget.staggeredDotsWave(
-            //     color: primaryColor, size: 50.0),
-            // SizedBox(height: 3.h),
             Text("Connection failed!"),
           ],
         ),

@@ -62,8 +62,6 @@ class ThemeColors {
       brightness: Brightness.dark,
     ),
   );
-  static Brightness get currentSystemBrightness =>
-      SchedulerBinding.instance.window.platformBrightness;
 }
 
 extension ThemeExtras on ThemeData {

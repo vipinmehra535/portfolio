@@ -45,11 +45,12 @@ class PortfolioMobileTab extends StatelessWidget {
         Space.y(3.w)!,
         OutlinedButton(
           onPressed: () => openURL(gitHub),
-          child: const Padding(
-            padding: EdgeInsets.all(8.0),
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
             child: Text(
               'See More',
               style: TextStyle(
+                color: Theme.of(context).seeMoreColor.withOpacity(0.6),
                 fontSize: 16,
                 fontWeight: FontWeight.w600,
               ),
